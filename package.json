@@ -1,0 +1,19 @@
+{
+  "name": "streaming-html-minifier-reduced-test-case",
+  "version": "1.0.0",
+  "description": "Reduced test case for debugging useHtmlMinifyStream in fastify/point-of-view.",
+  "main": "index.js",
+  "author": "Taylor Hunt",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fastify": "^2.7.0",
+    "html-minifier": "^4.0.0",
+    "html-minify-stream": "^1.0.0",
+    "marko": "^4.18.10",
+    "point-of-view": "^3.5.0"
+  }
+}
